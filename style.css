@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+/* navbar css */
+.nav-bar {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 3rem;
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 1px 20px 20px rgba(187, 187, 187, 0.767);
+  cursor: pointer;
+}
+.header {
+  color: rgb(63, 232, 238);
+  font-size: 2rem;
+}
+.header-choice {
+  width: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.hex,
+.rgb {
+  margin: 0.3rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+
+.hex:hover,
+.rgb:hover {
+  background-color: rgb(231, 231, 231);
+  transition: all 0.3s ease;
+}
+
+/* main body css */
+.container {
+  height: 680px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container-color {
+  background-color: black;
+  color: white;
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.btn {
+  cursor: pointer;
+  background-color: white;
+  margin: 2rem;
+  height: 2rem;
+  width: 5rem;
+  border: 2px solid #36393f;
+  border-radius: 10px;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: rgb(230, 230, 230);
+}
