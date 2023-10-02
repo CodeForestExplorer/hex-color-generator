@@ -31,7 +31,7 @@
 .hex,
 .rgb {
   margin: 0.3rem;
-  padding: 0.5rem;
+  padding: 1rem;
   border-radius: 10px;
 }
 
@@ -39,6 +39,7 @@
 .rgb:hover {
   background-color: rgb(231, 231, 231);
   transition: all 0.3s ease;
+  border: .5rem cyan dotted
 }
 
 /* main body css */
